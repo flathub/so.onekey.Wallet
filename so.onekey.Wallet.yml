@@ -1,9 +1,9 @@
 app-id: so.onekey.Wallet
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 command: onekey-wallet
 separate-locales: false
 finish-args:
@@ -41,15 +41,14 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v3.21.0/OneKey-Wallet-3.21.0-linux-x86_64.AppImage
-        sha256: e8e27eb2c6cf2a8e2359120968a29636840056a01304082ee8c83e542da160cc
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v3.22.0/OneKey-Wallet-3.22.0-linux-x86_64.AppImage
+        sha256: 5aa5d3c76567225a44f4e0e9525bd4fac11e6fa9a720821c16390c9030162d40
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
           url: https://api.github.com/repos/OneKeyHQ/app-monorepo/releases/latest
           version-query: .tag_name | sub("v"; "")
-          url-query:
-            .assets[] | select(.name == "OneKey-Wallet-" + $version + "-linux-x86_64.AppImage")
+          url-query: .assets[] | select(.name == "OneKey-Wallet-" + $version + "-linux-x86_64.AppImage")
             | .browser_download_url
 
       - type: file
@@ -63,8 +62,8 @@ modules:
       - ./OneKey-Wallet-linux.AppImage --appimage-extract
       - rm OneKey-Wallet-linux.AppImage
 
-      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value
-        'onekey-wallet %u' squashfs-root/onekey-wallet.desktop
+      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'onekey-wallet
+        %u' squashfs-root/onekey-wallet.desktop
 
       - install -Dm755 onekey-wallet.sh /app/bin/onekey-wallet
       - install -Dm644 so.onekey.Wallet.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
