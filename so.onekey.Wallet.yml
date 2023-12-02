@@ -40,8 +40,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v4.16.0/OneKey-Wallet-4.16.0-linux-x86_64.AppImage
-        sha256: 3ba446231c799ccdbfb05417a4356636dc2d156613b173ceee3302cefc30b028
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v4.17.0/OneKey-Wallet-4.17.0-linux-x86_64.AppImage
+        sha256: d9c3ddd4db7d22811d558e6d5708e1014a5e6adcae25f199582e348fa1adbcd0
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
