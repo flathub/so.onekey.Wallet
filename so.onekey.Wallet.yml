@@ -29,8 +29,8 @@ modules:
       - /lib/libpcsclite.so
     sources:
       - type: archive
-        url: https://pcsclite.apdu.fr/files/pcsc-lite-2.0.0.tar.bz2
-        sha256: d6c3e2b64510e5ed6fcd3323febf2cc2a8e5fda5a6588c7671f2d77f9f189356
+        url: https://pcsclite.apdu.fr/files/pcsc-lite-2.0.3.tar.bz2
+        sha256: f42ee9efa489e9ff5d328baefa26f9c515be65021856e78d99ad1f0ead9ec85d
         x-checker-data:
           type: anitya
           project-id: 2611
@@ -40,8 +40,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v4.21.0/OneKey-Wallet-4.21.0-linux-x86_64.AppImage
-        sha256: f6c3c6f3769561a78e9e9e290164078d570520d9468b01e9592fde638ec08450
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v4.23.0/OneKey-Wallet-4.23.0-linux-x86_64.AppImage
+        sha256: 10c5c682bcdf74bb14311ed6faccea30fb12dfc4598d7aa82f84ce0e53ae7d74
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
