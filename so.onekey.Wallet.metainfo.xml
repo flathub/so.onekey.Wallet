@@ -10,7 +10,6 @@
   <developer_name>OneKey</developer_name>
 
   <description>
-    <p>NOTE: This wrapper is not verified by, affiliated with, or supported by OneKey, Inc.</p>
     <p>
       OneKey is the easiest solution for keeping and trading crypto assets and NFTs, and tracking account dynamics. Instead of managing various assets on various decentralized platforms, you'll have a one-stop solution here that could meet all your needs about crypto asset management.
     </p>
@@ -56,40 +55,32 @@
 
   
   <releases>
-    <release version="4.24.0" date="2024-05-20">
-      <description></description>
+    <release version="5.18.0" date="2025-12-04">
+      <description>
+        <p>✨ New Features</p>
+        <ul>
+          <li>Added Perp rebate feature.</li>
+          <li>Added Base chain NFT support.</li>
+          <li>Added margin mode for Perp.</li>
+        </ul>
+        <p>💎 Improvements</p>
+        <ul>
+          <li>Optimized Swap quoting logic and improved slippage retrieval speed.</li>
+          <li>Redesigned Earn / DeFi detail page and Portfolio page with performance improvements.</li>
+          <li>Improved Market UI and interactions and now remembers the user's last selected tab.</li>
+          <li>“Recently used” is now fixed at the top of the network selector.</li>
+          <li>ADA staking frozen balance is now displayed.</li>
+          <li>Improved network stability.</li>
+        </ul>
+        <p>🐞 Bug Fixes</p>
+        <ul>
+          <li>Fixed style issues in rebate external jump modal.</li>
+          <li>Fixed wording issues in the create-password popup and settings page.</li>
+          <li>Fixed issue where opening OneKey via deeplink on cold start could not navigate to the target page.</li>
+          <li>Fixed startup error after installing Linux snap package.</li>
+          <li>Fixed Linux snap WebUSB not detecting hardware devices.</li>
+        </ul>
+      </description>
     </release>
-    <release version="4.23.0" date="2024-03-28"/>
-    <release version="4.21.0" date="2024-03-04"/>
-    <release version="4.20.0" date="2024-02-02"/>
-    <release version="4.19.0" date="2024-01-17"/>
-    <release version="4.18.0" date="2023-12-26"/>
-    <release version="4.17.0" date="2023-12-01"/>
-    <release version="4.16.0" date="2023-11-24"/>
-    <release version="4.15.0" date="2023-11-06"/>
-    <release version="4.14.0" date="2023-09-26"/>
-    <release version="4.13.0" date="2023-09-13"/>
-    <release version="4.12.0" date="2023-09-04"/>
-    <release version="4.11.0" date="2023-08-16"/>
-    <release version="4.9.0" date="2023-07-04"/>
-    <release version="4.8.0" date="2023-06-26"/>
-    <release version="4.7.0" date="2023-06-09"/>
-    <release version="4.6.0" date="2023-05-22"/>
-    <release version="4.5.0" date="2023-05-06"/>
-    <release version="4.4.0" date="2023-04-20"/>
-    <release version="4.3.0" date="2023-04-17"/>
-    <release version="4.2.0" date="2023-03-28"/>
-    <release version="4.1.0" date="2023-03-21"/>
-    <release version="4.0.0" date="2023-03-10"/>
-    <release version="3.30.0" date="2023-03-01"/>
-    <release version="3.29.0" date="2023-02-21"/>
-    <release version="3.28.0" date="2023-02-15"/>
-    <release version="3.27.0" date="2023-02-06"/>
-    <release version="3.26.0" date="2023-01-16"/>
-    <release version="3.25.0" date="2023-01-04"/>
-    <release version="3.24.0" date="2022-12-27"/>
-    <release version="3.23.0" date="2022-12-19"/>
-    <release version="3.22.0" date="2022-12-14"/>
-    <release version="3.21.0" date="2022-12-06"/>
     </releases>
 </component>
