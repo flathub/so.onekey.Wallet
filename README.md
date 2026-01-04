@@ -1,6 +1,6 @@
 # OneKey Wallet Flatpak
 
-Unofficial [Flathub package](https://flathub.org/apps/details/so.onekey.Wallet) of [OneKey Wallet](https://onekey.so/).
+Official [Flathub package](https://flathub.org/apps/details/so.onekey.Wallet) of [OneKey Wallet](https://onekey.so/).
 
 You need to install **PCSC daemon** to use this app.
 
