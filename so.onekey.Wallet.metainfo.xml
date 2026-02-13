@@ -55,77 +55,8 @@
 
   
   <releases>
-    <release version="5.19.0" date="2025-12-29">
-      <description>
-        <p>✨ New Features</p>
-        <ul>
-          <li>BTC Coin Control support.</li>
-          <li>DeFi integration with Stakefish for ETH, POL, and ATOM staking assets.</li>
-          <li>DeFi integration with Pangolins for USDC assets.</li>
-          <li>Perps chart now supports saving drawing data.</li>
-          <li>Market notifications added.</li>
-          <li>Professional trading mode added.</li>
-          <li>Wallet page now features DeFi portfolio aggregation.</li>
-          <li>Ton Provider SignData support.</li>
-          <li>LTC support for signing MWEB UTXO spending.</li>
-        </ul>
-        <p>💎 Improvements</p>
-        <ul>
-          <li>iOS Dynamic Island now displays App logo.</li>
-          <li>Web wallet connection component optimized for easier disconnection.</li>
-          <li>Perps mobile version now displays mark price.</li>
-          <li>Perps TV chart K-line and volume bars now split into two views by default.</li>
-          <li>Perps displays deposit card entry when balance is insufficient.</li>
-          <li>Swap purchase button triggers deposit card display.</li>
-          <li>Migrated Lite Card native modules to Turbo Module implementation.</li>
-          <li>Transaction history now filters Solana risk transactions.</li>
-          <li>Token details page aggregates HyperEVM USDC.</li>
-        </ul>
-        <p>🐞 Bug Fixes</p>
-        <ul>
-          <li>Fixed Wallet Connect compatibility issue with four.meme dApp.</li>
-          <li>Fixed Perps transaction history loading indefinitely when current account is not supported.</li>
-          <li>Fixed Perps displaying sub-referral code on first click of referral code.</li>
-          <li>Fixed incorrect loss amount format in Perps.</li>
-          <li>Fixed banner text update delay.</li>
-          <li>Fixed minswap.org connection issue.</li>
-          <li>Fixed error when viewing custom network token details under all networks.</li>
-        </ul>
-        <p>✨ 新功能</p>
-        <ul>
-          <li>BTC 支持 Coin Control 功能。</li>
-          <li>DeFi 接入 Stakefish 的 ETH、POL、ATOM 质押资产。</li>
-          <li>DeFi 接入 Pangolins 的 USDC 资产。</li>
-          <li>Perps 图表支持保存绘图数据。</li>
-          <li>Market 新增通知功能。</li>
-          <li>交易模块新增专业模式。</li>
-          <li>钱包页面新增 DeFi 仓位聚合展示功能。</li>
-          <li>Ton 支持 Provider SignData。</li>
-          <li>LTC 支持签名花费 MWEB UTXO。</li>
-        </ul>
-        <p>💎 改进</p>
-        <ul>
-          <li>iOS 灵动岛展示 App Logo。</li>
-          <li>网页端连接钱包组件优化，方便断开连接。</li>
-          <li>Perps 移动端新增标记价格显示。</li>
-          <li>Perps TV 图表 K 线和交易量柱默认拆分两个视图。</li>
-          <li>Perps 余额不足时显示入金卡片入口。</li>
-          <li>Swap 购买按钮点击出现入金卡片。</li>
-          <li>迁移 Lite Card 的原生模块到 Turbo Module 实现。</li>
-          <li>历史记录支持过滤 Solana 的风险交易。</li>
-          <li>代币详情页聚合 HyperEVM 的 USDC。</li>
-        </ul>
-        <p>🐞 问题修复</p>
-        <ul>
-          <li>修复 Wallet Connect 与 four.meme dApp 的兼容性问题。</li>
-          <li>修复 Perps 当前账户不支持的情况下历史记录一直 loading 的问题。</li>
-          <li>修复 Perps 首次点击邀请码会显示子邀请码的问题。</li>
-          <li>修复 Perps 亏损金额的书写格式不正确的问题。</li>
-          <li>修复 banner 文案更新延迟的问题。</li>
-          <li>修复 minswap.org 无法连接的问题。</li>
-          <li>修复所有网络下查看自定义网络代币详情页报错的问题。</li>
-        </ul>
-      </description>
+    <release version="5.20.0" date="2026-01-26">
+      <description></description>
     </release>
-    </releases>
+   </releases>
 </component>
