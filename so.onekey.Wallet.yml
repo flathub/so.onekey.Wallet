@@ -1,9 +1,9 @@
 app-id: so.onekey.Wallet
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '25.08'
 command: onekey-wallet
 finish-args:
   - --device=all
@@ -14,9 +14,6 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --socket=pcsc
 modules:
-  # https://github.com/flathub/com.yubico.yubioath/blob/546581dc3aef3d79de497cdbc4a481b537c5ab99/com.yubico.yubioath.yml#L24-L44
-  - shared-modules/libusb/libusb.json
-
   - name: pcsc-lite
     config-opts:
       - --disable-libudev
