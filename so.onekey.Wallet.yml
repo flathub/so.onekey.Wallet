@@ -74,8 +74,7 @@ modules:
       - ./OneKey-Wallet-linux.AppImage --appimage-extract
       - rm OneKey-Wallet-linux.AppImage
 
-      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'onekey-wallet
-        %u' squashfs-root/onekey-wallet.desktop
+      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'onekey-wallet %u' squashfs-root/onekey-wallet.desktop
 
       - install -Dm755 onekey-wallet.sh /app/bin/onekey-wallet
       - install -Dm644 so.onekey.Wallet.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
