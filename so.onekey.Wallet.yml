@@ -40,8 +40,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.1.0/OneKey-Wallet-6.1.0-linux-x86_64.AppImage
-        sha256: fab7e29e37261625bd63eda4834456b1cec03cb363afa5fc09cbf2f4b699c51f
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.2.0/OneKey-Wallet-6.2.0-linux-x86_64.AppImage
+        sha256: 3b81931fcc306abc441e6378764140c848983c05806d42b756e2a9f79760a862
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
@@ -53,8 +53,8 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.1.0/OneKey-Wallet-6.1.0-linux-arm64.AppImage
-        sha256: 0346f099bd4830e092c60feb35f02c81c2996b877bf2d91f1d0e68cec06787a6
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.2.0/OneKey-Wallet-6.2.0-linux-arm64.AppImage
+        sha256: 26602987dce5bdd65c52cfe91c1747d6d11385f0deb3bd40a889db1f93d07a78
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
@@ -74,7 +74,8 @@ modules:
       - ./OneKey-Wallet-linux.AppImage --appimage-extract
       - rm OneKey-Wallet-linux.AppImage
 
-      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'onekey-wallet %u' squashfs-root/onekey-wallet.desktop
+      - desktop-file-edit --set-icon ${FLATPAK_ID} --set-key Exec --set-value 'onekey-wallet
+        %u' squashfs-root/onekey-wallet.desktop
 
       - install -Dm755 onekey-wallet.sh /app/bin/onekey-wallet
       - install -Dm644 so.onekey.Wallet.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
