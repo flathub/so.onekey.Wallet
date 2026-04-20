@@ -55,6 +55,8 @@
 
   
   <releases>
+    <release version="6.2.0" date="2026-04-17">
+      <description></description>
     <release version="6.1.0" date="2026-03-21">
       <description>
         <p>New Features:</p>
@@ -82,7 +84,7 @@
         </ul>
       </description>
     </release>
-    <release version="5.20.0" date="2026-01-26">
+    <release version="6.1.0" date="2026-03-21">
       <description/>
     </release>
     <release version="5.20.0" date="2026-01-26">
