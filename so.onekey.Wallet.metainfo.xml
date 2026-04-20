@@ -57,6 +57,32 @@
   <releases>
     <release version="6.2.0" date="2026-04-17">
       <description></description>
+    <release version="6.1.0" date="2026-03-21">
+      <description>
+        <p>New Features:</p>
+        <ul>
+          <li>Global search now supports settings</li>
+          <li>Added Exodus as a new Swap provider</li>
+          <li>Market watchlist now supports long-press actions and displays Perps assets</li>
+          <li>Borrow now supports direct repayment with collateral</li>
+          <li>Added support for Pendle PT in Earn</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Renamed Ripple to XRP Ledger</li>
+          <li>Optimized the exchange deposit flow</li>
+          <li>Optimized the token detail page by adding swap functionality</li>
+          <li>Market: improved price change indicators and updated search results to a table layout</li>
+        </ul>
+        <p>Bug Fixes:</p>
+        <ul>
+          <li>Fixed an issue where hardware refund orders showed an incorrect status</li>
+          <li>Fixed a brief white screen when creating a wallet in the browser extension</li>
+          <li>Fixed an issue where Perps deposits did not show Pending status</li>
+          <li>Fixed a crash when creating a Keyless wallet on Android</li>
+          <li>Fixed an issue where the iOS theme did not follow system settings</li>
+        </ul>
+      </description>
     </release>
     <release version="6.1.0" date="2026-03-21">
       <description/>
