@@ -9,8 +9,10 @@ finish-args:
   - --device=all
   - --share=ipc
   - --share=network
+  - --filesystem=/run/udev:ro
   - --socket=wayland
   - --socket=fallback-x11
+  - --talk-name=org.freedesktop.Flatpak
   - --talk-name=org.freedesktop.Notifications
   - --socket=pcsc
 modules:
@@ -83,6 +85,7 @@ modules:
       - install -Dm644 squashfs-root/resources/static/images/icons/512x512.png /app/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
 
       - mv squashfs-root /app/onekey-wallet
+      - chmod +x /app/onekey-wallet/resources/bin/bridge/onekeyd
 
       # To allow separate locales
       # https://searchfox.org/mozilla-central/rev/8a4f55bc09ffc5c25dcb4586c51ae4a9fee77b4c/taskcluster/docker/firefox-flatpak/runme.sh#131-133
