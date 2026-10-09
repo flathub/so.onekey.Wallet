@@ -27,23 +27,23 @@
   <launchable type="desktop-id">so.onekey.Wallet.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image type="source" width="2880" height="1800" xml:lang="en">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_1-1720798345.png</image>
+      <image type="source" width="2880" height="1800">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_1-1720798345.png</image>
       <caption>Wallet overview on macOS</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="2880" height="1800" xml:lang="en">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_2-1720798345.png</image>
+      <image type="source" width="2880" height="1800">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_2-1720798345.png</image>
       <caption>Network selection on macOS</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="2880" height="1800" xml:lang="en">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_3-1720798345.png</image>
+      <image type="source" width="2880" height="1800">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_3-1720798345.png</image>
       <caption>Wallet and account selection on macOS</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="2880" height="1800" xml:lang="en">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_4-1720798345.png</image>
+      <image type="source" width="2880" height="1800">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_4-1720798345.png</image>
       <caption>Cross-chain swap interface on macOS</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="2880" height="1800" xml:lang="en">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_5-1720798345.png</image>
+      <image type="source" width="2880" height="1800">https://dashboard.snapcraft.io/site_media/appmedia/2024/07/macos_5-1720798345.png</image>
       <caption>Hardware wallet connection on macOS</caption>
     </screenshot>
   </screenshots>
