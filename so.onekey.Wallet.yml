@@ -41,8 +41,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.0/OneKey-Wallet-6.6.0-linux-x86_64.AppImage
-        sha256: 62451609fba9e6e446efab45c169315a59416105fae81d143c3432118a1c3bf7
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.3/OneKey-Wallet-6.6.3-linux-x86_64.AppImage
+        sha256: b8889f941ca2ecc0e81ae52ea15d32a7c627415840a7e8f741bcd2fb3cf2a125
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
@@ -54,8 +54,8 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.0/OneKey-Wallet-6.6.0-linux-arm64.AppImage
-        sha256: d3a88f23a5372d46b1b872596b2247b0286de7d430e64579a6a58c81caf5681e
+        url: https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.3/OneKey-Wallet-6.6.3-linux-arm64.AppImage
+        sha256: 113f9e73826677673bce9ad688b15cff972fbeb35b13f9025d0a9fa8064eeab7
         dest_filename: OneKey-Wallet-linux.AppImage
         x-checker-data:
           type: json
