@@ -33,7 +33,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 2611
-          url-template: https://pcsclite.apdu.fr/files/pcsc-lite-$version.tar.bz2
+          url-template: https://pcsclite.apdu.fr/files/pcsc-lite-$version.tar.xz
 
   - name: onekey-wallet
     buildsystem: simple
